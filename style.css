@@ -1,0 +1,93 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+body {
+    height: 100vh;
+    background-color:#655D8A;
+}
+h1 {
+  margin: 30px;
+
+  font-family: 'Black Ops One';
+  font-size: 8rem;
+  color: #fdd3f7;
+}
+h2 {
+  font-family: 'Ephesis';
+  text-shadow: 3px 0 #D6B0B1;
+  font-size: 4rem;
+  
+}
+div {
+  margin: 30px;
+  
+}
+p {
+  font-size: 2rem;
+  color: #F9F9F9;
+  margin:20px;
+  background-color: #8B5E83;
+  border-radius: 15px;
+}
+img{
+    padding:30px;
+    height:130px;
+    background-color: #947cb6;
+}
+.roll {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+button {
+  height: 50px;
+  width:150px;
+  font-family: 'Epesis', serif;
+  font-size: large;
+  background-image:linear-gradient( #968ca4,#8564bb)
+}
+
+/* Flickering animation */
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 60% {
+    color: #FCF8E8;
+    text-shadow:
+  0 0 7px #FCF8E8,
+  0 0 10px #FCF8E8
+  0 0 21px #FCF8E8,
+  0 0 42px #FCF8E8,
+  0 0 82px #FCF8E8,
+  0 0 92px  #FCF8E8,
+  0 0 102px #FCF8E8,
+  0 0 151px rgb(64, 171, 190);
+  
+  }
+  20%, 24% {        
+      text-shadow: none;
+  }    
+}
+
+  h1 {
+    border: 0rem solid #fff;
+    text-shadow: #61618f;
+    border-radius:0rem;padding:1.5px;
+    box-shadow: 0 0rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #b3a2b9,
+                0 0 0.8rem #ded0e4,
+                0 0 2.8rem #d1c9d5,
+                inset 0 0 1.3rem #bca9c3;
+  }  
+
+
+  
